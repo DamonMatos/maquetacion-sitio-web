@@ -31,7 +31,6 @@
         clip-path: ellipse(140% 100% at 50% 0%); /* Forma de elipse para el hero */
     }
 
-    /* Estilo de los Blobs (Manchas orgánicas) */
     .blob {
         position: absolute;
         width: 300px;
@@ -56,7 +55,7 @@
     }
 
 /* Contenido Central */
-    /* .content {
+    .content {
         position: relative;
         z-index: 10;
         width: 80%;
@@ -66,10 +65,10 @@
     h1 { 
         font-size: 2rem; 
         margin-bottom: 30px; 
-    } */
+    } 
 
 /* Barra de búsqueda estilo "Pill" */
-    /* .search-bar {
+    .search-bar {
         background: white;
         padding: 10px;
         border-radius: 50px;
@@ -84,9 +83,9 @@
         align-items: center;
         padding: 0 20px;
         border-right: 1px solid #ddd;
-    } */
+    } 
 
-    /* .input-group:last-of-type { 
+    .input-group:last-of-type { 
         border-right: none; 
     }
 
@@ -110,4 +109,4 @@
     .subtitle { 
         margin-top: 20px; 
         font-size: 1.1rem; 
-    } */
+    } 
