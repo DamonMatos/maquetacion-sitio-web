@@ -70,6 +70,12 @@
         margin-top: 20px;
     }
 
+    #titulo{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
 /* ***********************************+ */
 
     #contenedor{
