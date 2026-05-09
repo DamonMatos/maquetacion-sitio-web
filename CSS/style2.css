@@ -1,0 +1,113 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: 'Poppins', sans-serif;
+        background: #DDDDDD;
+    }
+
+    :root {
+        --blue-main: #004185;
+        --green-blob: #00a181;
+        --yellow-blob: #ffb81c;
+    }
+
+    .hero {
+        /* background-color: var(--blue-main); */
+        background-image: url("https://wallpapers.com/images/hd/cool-4k-ultra-hd-b0vap728kctjjche.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        overflow: hidden;
+        text-align: center;
+        clip-path: ellipse(140% 100% at 50% 0%); /* Forma de elipse para el hero */
+    }
+
+    /* Estilo de los Blobs (Manchas orgánicas) */
+    .blob {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        z-index: 1;
+    }
+
+    .blob-green {
+        background-color: var(--green-blob);
+        left: -50px;
+        top: 200px;
+        margin-left: 10%;
+        border-radius: 40% 80% 25% 25% / 70% 65% 50% 50%;
+    }
+
+    .blob-yellow {
+        background-color: var(--yellow-blob);
+        right: -50px;
+        top: 200px;
+        margin-right: 10%;
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+/* Contenido Central */
+    /* .content {
+        position: relative;
+        z-index: 10;
+        width: 80%;
+        max-width: 900px;
+    }
+
+    h1 { 
+        font-size: 2rem; 
+        margin-bottom: 30px; 
+    } */
+
+/* Barra de búsqueda estilo "Pill" */
+    /* .search-bar {
+        background: white;
+        padding: 10px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    .input-group {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        border-right: 1px solid #ddd;
+    } */
+
+    /* .input-group:last-of-type { 
+        border-right: none; 
+    }
+
+    input {
+        border: none;
+        padding: 10px;
+        width: 100%;
+        outline: none;
+    }
+
+    .btn-search {
+        background-color: var(--blue-main);
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .subtitle { 
+        margin-top: 20px; 
+        font-size: 1.1rem; 
+    } */
